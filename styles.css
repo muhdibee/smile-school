@@ -156,6 +156,7 @@ header {
 header >.container{
     flex-flow: var(--flex-row-wrap);
     justify-content: var(--flex-justify-content-between); 
+    margin-top: 1rem;    
 }
 
 header >.container >nav {
@@ -427,6 +428,7 @@ h1[class="get-schooled"]  {
     display: flex;
     flex-flow: var(--flex-row-nowrap);
     justify-content: space-between;
+    margin-top: 1rem;
 }
 
 
