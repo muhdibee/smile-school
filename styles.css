@@ -306,7 +306,9 @@ h1[class="get-schooled"]  {
 }
 
 /* most-popular-tutorial-section */
-
+body {
+    background-color: #090909;
+}
 .most-popular-tutorial-section {
     background-color: var(--color-background-light);
     border: 1px ridge;
@@ -321,7 +323,7 @@ h1[class="get-schooled"]  {
 .most-popular-tutorial-container >.tutorial-cards-container{
     max-width: inherit;
     display: var(--d-flex);
-    flex-flow: var(--flex-row-nowrap);
+    flex-flow: var(--flex-row-wrap);
     justify-content: var(--flex-justify-content-between); 
     gap: 1rem;
     padding: 6rem 0;
@@ -424,26 +426,26 @@ h1[class="get-schooled"]  {
 }
 
 .footer-container {
-    width: 62.5rem;
-    display: flex;
-    flex-flow: var(--flex-row-nowrap);
-    justify-content: space-between;
+    width: inherit;
+    flex-flow: var(--flex-row-wrap);
+    justify-content: var(--flex-justify-content-between); 
     margin-top: 1rem;
+    gap: 5rem
 }
 
 
 @media screen and (max-width: 480px) {
     .container {
-        width: 100%;
-        padding-left:.5rem;
-        padding-right: .5rem;
-        color: var(--color-text-white);
+        width: 99%;
+        padding-left:.3rem;
+        padding-right: .3rem;
+            /* color: var(--color-text-white); */
         display: var(--d-flex);
         flex-flow: var(--flex-column-nowrap);
         justify-content: var(--flex-justify-content-center); 
         align-items: var(--flex-align-items-center);
-        margin:auto auto;
-        border: 1px solid #D73953;
+        /* margin:auto auto; */
+        /* border: 1px solid #D73953; */
     
     }
     
