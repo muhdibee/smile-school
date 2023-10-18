@@ -180,7 +180,7 @@ header >.container >.hamburger {
     background-image: url(./assets/images/Object.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top right;
+    background-position: top left;
     margin: auto 0px;
 }
 
@@ -324,7 +324,7 @@ body {
     max-width: inherit;
     display: var(--d-flex);
     flex-flow: var(--flex-row-wrap);
-    justify-content: var(--flex-justify-content-between); 
+    justify-content: var(--flex-justify-content-center); 
     gap: 1rem;
     padding: 6rem 0;
     /* border: 1px solid #D73953; */
@@ -342,6 +342,7 @@ body {
     height: 9rem;
     border-radius: 5px;
     border: 1px solid var(--color-primary);
+    background-repeat: no-repeat;
 }
 
 /*********************Membership section *******************/
@@ -361,7 +362,7 @@ body {
 .membership-section >.membership-container >.members-container{
     display: var(--d-flex);
     flex-flow: var(--flex-row-wrap);
-    justify-content: var(--flex-justify-content-between);
+    justify-content: var(--flex-justify-content-center);
 }
 
 .membership-container >.members-container >div{
@@ -439,7 +440,7 @@ body {
         width: 99%;
         padding-left:.3rem;
         padding-right: .3rem;
-            /* color: var(--color-text-white); */
+        /* color: var(--color-text-white); */
         display: var(--d-flex);
         flex-flow: var(--flex-column-nowrap);
         justify-content: var(--flex-justify-content-center); 
@@ -448,6 +449,14 @@ body {
         /* border: 1px solid #D73953; */
     
     }
-    
-    
+
+    .most-popular-tutorial-container >.tutorial-cards-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        /* border: 2px solid #D73953; */
+        /* background-color: #C271FF; */
+    }  
 }
