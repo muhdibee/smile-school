@@ -232,7 +232,6 @@ h1[class="get-schooled"]  {
     align-items: center;
     gap: 3rem;
     /* border: 1px solid #D73953; */
-
 }
 
 .banner-section .pros-container {
@@ -250,11 +249,11 @@ h1[class="get-schooled"]  {
     align-items: var(--flex-align-items-center);
 }
 
-
 .banner-section .pros-container .pro p, .banner-section .pros-container .pro-text {
     margin: .3rem;
     text-align: center;
 }
+
 .banner-section .pro-photo {
     width: 10rem;
     height: 10rem;
@@ -262,7 +261,6 @@ h1[class="get-schooled"]  {
     background-position: center;
     background-size:cover;
     border-radius: 100%;
-
 }
 
 .banner-section >.container >.get-schooled-container >.register-btn, .register-btn {
@@ -279,7 +277,6 @@ h1[class="get-schooled"]  {
     /* color: var(--color-dark-grey); */
     cursor: pointer;
     box-shadow: 0 0 2rem var(--color-dark-grey);
-
 }
 
 /* Testimonial section */
@@ -372,7 +369,7 @@ body {
     flex-flow: var(--flex-column-nowrap);
     justify-content: var(--flex-justify-content-center);
     align-items: var(--flex-align-items-center);
-    /* border: 1px solid #D73953; */
+    border: 1px solid #D73953;
 }
 .membership-container >.members-container >div p{
     text-align: center;
@@ -402,8 +399,9 @@ body {
     width: 100%;
     display: var(--d-flex);
     flex-flow: var(--flex-row-wrap);
-    justify-content: var(--flex-justify-content-between);
+    justify-content: var(--flex-justify-content-center);
     align-items: var(--flex-align-items-center);
+    gap:3rem;
     /* border: 1px solid #D73953; */
 
 }
