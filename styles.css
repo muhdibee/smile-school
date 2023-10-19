@@ -226,6 +226,11 @@ p[ class="title"] {
     font-size: 2.2rem;
 }
 
+p[ class="title"] >b{
+    color: var(--color-primary);
+}
+
+
 .h-d-t-w h6 {
     font-size: 1.2rem;
 }
