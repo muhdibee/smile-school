@@ -175,6 +175,10 @@ header >.container .nav-items {
     justify-content: var(--flex-justify-content-end); 
     gap: 2.5rem;
 }
+.nav-items a {
+    text-decoration: none;
+    color: var(--color-text-white)
+}
 
 .nav-items a:hover {
     color: var(--color-primary);
