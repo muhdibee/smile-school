@@ -364,6 +364,12 @@ body {
     background-repeat: no-repeat;
 }
 
+.tutorial-card-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /*********************Membership section *******************/
 .membership-section {
     color: var(--color-text-white);
