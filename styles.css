@@ -162,7 +162,11 @@ header >.container{
     justify-content: var(--flex-justify-content-between); 
     margin-top: 2rem;    
 }
-
+  .close:hover, .hamburger:hover, .logo:hover {
+    opacity: 0.5;
+    cursor: pointer;  
+  }  
+  
 header >.container .nav-items {
     color: var(--color-text-white);
     display: var(--d-flex);
@@ -500,6 +504,15 @@ p[class="tm"] {
         /* border: 1px solid #D73953; */
     
     }
+    
+    header >.container >.hamburger, header >.container .close {
+      display: block;
+      font-size: 2rem;
+      height: fit-content;
+      width: fit-content;
+      cursor: pointer;
+      color:var(--color-text-white);
+    }
 
     .navbar-container{
         position:fixed;
@@ -508,14 +521,32 @@ p[class="tm"] {
         justify-content: start;
         gap: 5rem;
         top: 0px;
-        left: -100%;
+        left: 0px;
         z-index: 2;
         width: 100%;
         height: 100vh;
         background-color: var(--color-primary);
-        padding-top: 3rem;
         -webkit-transition: all 0.5s ease-in-out;
       }
+
+      header >.container .nav-items {
+        display: var(--d-flex);
+        color: var(--color-text-white);
+        display: var(--d-flex);
+        flex-flow: var(--flex-column-nowrap);
+        justify-content: var(--flex-justify-content-start); 
+        font-size: 3rem;
+        gap: 2.5rem;
+        text-align: center;
+        -webkit-transition: all 0.5s ease-in-out;
+    }    
+
+      .nav-items a:hover{
+        width: 100%;
+        background-color: var(--color-background-light);
+        color: var(--color-primary);
+        cursor: pointer;
+      }    
       .banner-section {
         color: var(--color-text-white);
         height: 60rem;
