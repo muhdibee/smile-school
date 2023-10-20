@@ -364,10 +364,23 @@ body {
     background-repeat: no-repeat;
 }
 
-.tutorial-card-image {
+.tutorial-card .tutorial-card-image {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.tutorial-card  .testimonial-img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+}
+
+.tutorial-card .testimonial, .tutorial-card .rating {
+    display: flex;
+    align-items: center;
+    justify-content: var(--flex-justify-content-between);
+    color: var(--color-primary);
+    font-weight: bold;
 }
 
 /*********************Membership section *******************/
