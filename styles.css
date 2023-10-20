@@ -160,7 +160,7 @@ header {
 header >.container{
     flex-flow: var(--flex-row-wrap);
     justify-content: var(--flex-justify-content-between); 
-    margin-top: 1rem;    
+    margin-top: 2rem;    
 }
 
 header >.container .nav-items {
@@ -168,7 +168,7 @@ header >.container .nav-items {
     display: var(--d-flex);
     flex-flow: var(--flex-row-nowrap);
     justify-content: var(--flex-justify-content-end); 
-    gap: 1rem;
+    gap: 2.5rem;
 }
 
 header >.container >.hamburger {
@@ -179,14 +179,13 @@ header >.container >.hamburger {
 
 .banner-section {
     color: var(--color-text-white);
-    height: 50rem;
+    height: 65rem;
     background-image: url(./assets/images/Object.png);
     background-color: var(--color-background-dark);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
     margin: auto 0px;
-    border: 1px solid green;
 }
 
 .banner-section >.container {
@@ -205,7 +204,7 @@ header >.container >.hamburger {
     flex-flow: var(--flex-column-nowrap);
     justify-content: var(--flex-justify-content-between); 
     align-items: var(--flex-align-items-center);
-    margin-top:18rem;
+    margin-top: 33rem; /* 18rem*/
 }
 
 .get-schooled-container >div{
@@ -219,7 +218,7 @@ header >.container >.hamburger {
 
 h1[class="get-schooled"]  {
     margin: 0rem;
-    font-size: 6rem;
+    font-size: 7rem;
     font-weight:700;
 }
 
@@ -240,12 +239,12 @@ p[ class="title"] >b{
     display: var(--d-flex);
     flex-flow: var(--flex-row-nowrap);
     justify-content: var(--flex-justify-content-end); 
-    gap: 1rem;
-    font-size: 1.2rem;
+    gap: 2.8rem;
+    font-size: 1rem;
 }
 
 .banner-section .learn-from-the-pros-container {
-    margin-top: 3rem;
+    margin-top: 12rem;
     width: 100%;
     display: var(--d-flex);
     flex-flow: var(--flex-column-wrap);
@@ -291,6 +290,8 @@ p[ class="title"] >b{
     border-radius: 1.5rem;
     border: 0;
     box-shadow: 0 0 .5rem var(--color-dark-grey);
+    /* font-weight: 600; */
+    font-size: 1.2rem;
 }
 
 .banner-section >.container >.get-schooled-container >.register-btn:hover, .register-btn:hover    {
@@ -470,7 +471,6 @@ p[class="tm"] {
         flex-flow: var(--flex-column-nowrap);
         justify-content: var(--flex-justify-content-center); 
         align-items: var(--flex-align-items-center);
-        /* margin:auto auto; */
         /* border: 1px solid #D73953; */
     
     }
@@ -499,7 +499,6 @@ p[class="tm"] {
         background-size: cover;
         background-position: center center;
         margin: auto 0px;
-        border: 1px solid green;
     }
 
     .banner-section >.container >.get-schooled-container {
@@ -509,25 +508,29 @@ p[class="tm"] {
         align-items: var(--flex-align-items-center);
         margin-top:8rem;
     }
-    
-    
 
+    .banner-section .learn-from-the-pros-container {
+        margin-top: 3rem;
+    }
+    
+    
+    
     .most-popular-tutorial-container >.tutorial-cards-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         flex-wrap: wrap;
         align-items: center;
-        /* border: 2px solid #D73953; */
         /* background-color: #C271FF; */
+        /* border: 2px solid #D73953; */
     }  
     .membership-container >.members-container >div{
         margin-top: 2rem;
     }
 
     h1[class="get-schooled"]  {
-        margin-top: 12rem;
-        font-size: 2.5rem;
+        margin-top: 16rem;
+        font-size: 3rem;
         font-weight:700;
         /* border: 2px solid #D73953; */
     }    
