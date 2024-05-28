@@ -120,7 +120,7 @@ body {
 /* Body */
 
 .brd {
-    border: 1px solid #D73953;
+    border: 2px solid #D73953;
 }
 
 /* *{
@@ -201,6 +201,7 @@ header >.container >.hamburger, .close {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
+    background-attachment: fixed;
     margin: auto 0px;
 }
 
@@ -220,7 +221,7 @@ header >.container >.hamburger, .close {
     flex-flow: var(--flex-column-nowrap);
     justify-content: var(--flex-justify-content-between); 
     align-items: var(--flex-align-items-center);
-    margin-top: 33rem; /* 18rem*/
+    margin-top: 12rem
 }
 
 .get-schooled-container >div{
@@ -520,11 +521,16 @@ p[class="tm"] {
         flex-flow: var(--flex-column-nowrap);
         justify-content: var(--flex-justify-content-center); 
         align-items: var(--flex-align-items-center);
+        align-items: var(--flex-align-items-center);
+        /* border: 1px solid #D73953; */
+    
+        align-items: var(--flex-align-items-center);    
         /* border: 1px solid #D73953; */
     
     }
     
     header >.container >.hamburger, header >.container .close {
+      /* margin: 1rem 0 0 1rem; */
       display: block;
       font-size: 2rem;
       height: fit-content;
@@ -540,7 +546,7 @@ p[class="tm"] {
         justify-content: start;
         gap: 5rem;
         top: 0px;
-        left: -100%;
+        right: -100%;
         z-index: 2;
         width: 100%;
         height: 100vh;
@@ -578,11 +584,13 @@ p[class="tm"] {
     }
 
     .banner-section >.container >.get-schooled-container {
-        display: var(--d-flex);
+        /* display: var(--d-flex);
         flex-flow: var(--flex-column-nowrap);
         justify-content: var(--flex-justify-content-between); 
-        align-items: var(--flex-align-items-center);
-        margin-top:8rem;
+        align-items: var(--flex-align-items-center); */
+        margin-top:1rem;
+        height: 20 rem;
+        /* border: 1px solid #272122; */
     }
 
     .banner-section .learn-from-the-pros-container {
@@ -604,10 +612,14 @@ p[class="tm"] {
     }
 
     h1[class="get-schooled"]  {
-        margin-top: 16rem;
+        margin-top: 6rem;
         font-size: 3rem;
         font-weight:700;
-        /* border: 2px solid #D73953; */
     }    
+    .footer-container {
+        margin-top: 3rem;
+        /* border: 2px solid #D73953; */
+
+    }
     
 }
